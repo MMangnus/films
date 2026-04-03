@@ -47,17 +47,40 @@ def main():
 
     movie_titles = movie_titles[:5]
 
-    print(f"n. movies {len(movie_titles)}")
-    tropes = get_tropes_for_movies(movie_titles)
-    print(f"n. tropes found: {len(tropes)}")
+    print(lb_data[lb_data['URLSafeNames'] == "ANewHope"]['Rating'])
 
+    #print(f"n. movies {len(movie_titles)}")
+    tropes = get_tropes_for_movies(movie_titles) # dict with key = urlsafename of movie and value = tropes in movie
+    #print(f"n. tropes found: {len(tropes)}")
+    
     #trope_stats = pd.DataFrame(columns=["tropes","n_occurences","all_ratings"])
 
-    for movie, m_tropes in tropes.items():
-        print(movie, m_tropes)
-        #i_data = list(movie_titles).index(movie)
-        #rating = lb_data.loc[i_data, "Rating"]
+    #tropes_per_movie = []
+
+    # create lists with rating and list of trope lists
+    #for movie, m_tropes in tropes.items():
+    #    tropes_per_movie.append((movie,m_tropes))
+
+    tropes_per_movie = tropes.items()
     
+    print(f"length m_tropes: {len(tropes_per_movie)}")
+    
+    # count number of occurences of trope and cumulative rating
+    trope_stats = {}
+    for movie, m_tropes in tropes_per_movie:
+        print(movie)
+        movie_rating = lb_data[lb_data['URLSafeNames'] == movie]['Rating']
+        for trope in m_tropes:
+            if trope in trope_stats:
+                trope_stats[trope][0] += 1
+                trope_stats[trope][1] += movie_rating # TODO first get values and then assign new tuple at once. alternative: list instead of tuples
+            else:
+                trope_stats[trope] = (1, movie_rating)
+
+    print(trope_stats)
+
+        
+
     # TODO: 1. create list with ratings and list with lists of tropes
     # 2. loop over those lists and create a new dictionairy with key = trope, value = (number of occurences, cumulative rating)
 
