@@ -5,8 +5,8 @@ import os
 import pandas as pd
 import zipfile
 
-FILE_API_KEY = "api_key_margot.txt"
-BASE = "https://api.subdl.com/api/v1/subtitles"
+FILE_API_KEY_SUBDL = "api_key_subdl.txt"
+BASE_SUBDL = "https://api.subdl.com/api/v1/subtitles"
 
 def get_api_key(file: str) -> str:
     '''Reads API key from a text file'''
@@ -18,7 +18,8 @@ def get_api_key(file: str) -> str:
 def get_movie_titles(movie_titles_file: str) -> pd.DataFrame:
     '''Extracts movie names from .csv file in other folder'''
     lb_data = pd.read_csv(movie_titles_file, sep=",")
-    return lb_data['Name']
+    movie_year = list(lb_data.itertuples(index=False))
+    return movie_year
     
 
 def safe_extract(zip_path, dest_folder):
@@ -39,15 +40,13 @@ def safe_extract(zip_path, dest_folder):
 
 def main():
 
-    api_key = get_api_key(FILE_API_KEY)
+    api_key = get_api_key(FILE_API_KEY_SUBDL)
 
     movies = get_movie_titles(movie_titles_file="movie_titles_subs.csv")
 
-    movies = movies[:3]
-
     os.makedirs("subtitles", exist_ok=True)
 
-    for title in movies:
+    for title, year in movies:
         safe_title = re.sub(r"[/:&\[\]#!?,]", "", title).replace(" ", "_").replace("'", "")
         dest_folder = f"subtitles/{safe_title}"
 
@@ -60,13 +59,17 @@ def main():
             continue
 
         # Search
-        r = requests.get(BASE, params={
+        r = requests.get(BASE_SUBDL, params={
             "api_key": api_key,
             "film_name": title,
+            "type": "movie",
             "languages": "EN",
+            "year": year,
             "subs_per_page": 1,
         })
         data = r.json()
+
+        #print(f"{title}, {year}")
 
         if data.get("subtitles"):
             sub = data["subtitles"][0]

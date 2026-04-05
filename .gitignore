@@ -2,5 +2,5 @@ ideas.txt
 /__pycache__
 *.svg
 *.png
-subtitles/api_key_margot.txt
+subtitles/api_key*
 subtitles/subtitles/*
