@@ -1,46 +1,86 @@
 import re
 import os
+import sys
+import glob
+import pandas as pd
 from collections import Counter
+
+def load_data(file_path: str) -> tuple[pd.DataFrame, pd.Series]:
+    """Load CSV data and extract movie titles."""
+    print("Loading data")
+    lb_data = pd.read_csv(file_path, sep=",")
+    return lb_data
 
 def main():
 
-    os.makedirs("processed_text_files", exist_ok=True)
+    if len(sys.argv) < 2:
+        print("Usage: python analyze_subs.py input_file.csv")
+        sys.exit(1)
+    file = sys.argv[1]
 
-    sub_file = r""
-    sub_f = open(sub_file, encoding="utf-8")
+    # Load data
+    lb_data = load_data(file)
+    fivestar_data = lb_data[lb_data['Rating'] == 5]
 
-    script_file = 'script.txt'
-    script_f = open(script_file, "a")
+    #os.makedirs("processed_text_files", exist_ok=True)
 
-    script_word_list = []
-    n_total_words = 0
+    subtitle_subfolders = os.listdir("subtitles")
+    processed_count = 0
+    curr_dir = os.getcwd()
+    all_scripts = {}
+    n_words = []
+    movie_titles = []
 
-    while line := sub_f.readline():
+    for folder in subtitle_subfolders:
+        print(folder)
+        curr_path = os.path.join(curr_dir,"subtitles",folder)
+        try:
+            sub_file = os.path.join("subtitles",folder,os.listdir(curr_path)[0])
+        except:
+            continue            
 
-        has_letters = re.search(r"[a-zA-Z]", line) is not None
-        has_time_arrow = re.search("-->", line) is not None
+        #script_file = f"\processed_text_files\{folder}.txt"
 
-        if has_letters and not has_time_arrow:
-            line = re.sub('[.,?!():"]', '', line)
-            script_f.write(line)
-            line_word_list = line.split()
-            script_word_list.extend(line_word_list)
-            n_total_words += len(line_word_list)  
+        #script_f = open(script_file, "a")
+        sub_f = open(sub_file, encoding = 'latin-1')
+          
 
-    # TODO: make list of movie title and script_word_list
+        script_word_list = []
+        n_total_words = 0
 
-    sub_f.close()
-    script_f.close()
+        while line := sub_f.readline():
 
-    counts = Counter(script_word_list)
-    print(counts.most_common(50))
-    print(f"total number of words in document: {n_total_words}")
-    #print(sorted(obj.keys())) print words alphabetically
+            has_letters = re.search(r"[a-zA-Z]", line) is not None
+            has_time_arrow = re.search("-->", line) is not None
 
-    # calculate relative frequency (also known as Term Frequency(TF))
-    rel_freqs = counts
-    for word in rel_freqs:
-        rel_freqs[word] = rel_freqs[word] / n_total_words
+            if has_letters and not has_time_arrow:
+                line = re.sub('[.,?!():"]', '', line)
+                #script_f.write(line)
+                line_word_list = line.split()
+                script_word_list.extend(line_word_list)
+                n_total_words += len(line_word_list)  
+
+        sub_f.close()
+        #script_f.close()
+        # TODO: make list of movie title and script_word_list:  
+        movie_title = re.sub("_"," ", folder)
+        movie_titles.append(movie_title)
+        all_scripts[movie_title] = script_word_list
+        n_words.append(len(script_word_list))
+
+        processed_count += 1
+
+        print(f"processed: {processed_count}")
+
+    # counts = Counter(script_word_list)
+    # print(counts.most_common(50))
+    # print(f"total number of words in document: {n_total_words}")
+    # #print(sorted(obj.keys())) print words alphabetically
+
+    # # calculate relative frequency (also known as Term Frequency(TF))
+    # rel_freqs = counts
+    # for word in rel_freqs:
+    #     rel_freqs[word] = rel_freqs[word] / n_total_words
 
     # If TF for 5 star films: 
     # 1. make list of movie title and script_word_list like above

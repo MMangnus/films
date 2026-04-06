@@ -59,13 +59,14 @@ def main():
             continue
 
         # Search
+        print(title)
         r = requests.get(BASE_SUBDL, params={
             "api_key": api_key,
             "film_name": title,
             "type": "movie",
             "languages": "EN",
             "year": year,
-            "subs_per_page": 1,
+            "subs_per_page": 3,
         })
         data = r.json()
 

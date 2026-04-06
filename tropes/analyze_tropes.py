@@ -12,10 +12,10 @@ a column that converts the default Name column into a column that contains movie
 titles that comply with the URLs on the tv tropes website.
 
 Usage:
-    python analyze_ratings.py <input_file.csv>
+    python analyze_tropes.py <input_file.csv>
 
 Example:
-    python analyze_ratings.py movie_ratings.csv
+    python analyze_tropes.py ../movie_ratings.csv
 
 Input:
     - CSV file with columns: 'URLSafeNames' (movie names for TV Tropes URLs) and 'Rating' (ratings)
@@ -74,16 +74,6 @@ def load_data(file_path: str) -> tuple[pd.DataFrame, pd.Series]:
     lb_data = pd.read_csv(file_path, sep=",")
     movie_titles = lb_data["URLSafeNames"]
     return lb_data, movie_titles
-
-def plot_movie_ratings(lb_data: pd.DataFrame, fig_title = "movie_ratings.svg"):
-    '''Plots movie ratings taken from Letterboxd data'''
-    fig, ax = plt.subplots(nrows = 1,ncols = 1, figsize = (5, 4), dpi = 150)
-    plt.hist(lb_data['Rating'], rwidth=0.8, color = '#FF8000')
-    ax.set_title('Movie Ratings')
-    ax.set_ylabel('Frequency')
-    ax.set_xlabel("Rating (0.5 to 5)")   
-    ax.set_xlim(0,5)
-    plt.savefig(fig_title) 
 
 def compute_trope_stats(tropes_per_movie, lb_data: pd.DataFrame) -> dict:
     """Compute trope statistics from movie tropes and ratings."""
@@ -146,7 +136,7 @@ def main():
     lb_data, movie_titles = load_data(file)
 
     # Plot movie ratings
-    plot_movie_ratings(lb_data, fig_title = "movie_ratings.svg")
+    #plot_movie_ratings(lb_data, fig_title = "movie_ratings.svg")
 
     # Fetch tropes
     tropes = get_tropes_for_movies(movie_titles)

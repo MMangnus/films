@@ -1,0 +1,473 @@
+director,count,movies_from_director,my_rating,avg_rating,diff_rating
+GeorgeLucas,2,"['Star Wars', 'Star Wars: Episode I – The Phantom Menace']",2.50,3.63,-1.13
+IrvinKershner,1,['The Empire Strikes Back'],4.50,4.40,0.10
+RichardMarquand,1,['Return of the Jedi'],4.00,4.09,-0.09
+DenisVilleneuve,8,"['Sicario', 'Prisoners', 'Polytechnique', 'Blade Runner 2049', 'Arrival', 'Incendies', 'Dune', 'Dune: Part Two']",4.06,4.12,-0.06
+RidleyScott,6,"['The Martian', 'Blade Runner', 'Alien', 'Prometheus', 'Alien: Covenant', 'Gladiator']",3.83,3.79,0.05
+PeteDocter,2,"['Inside Out', 'Up']",3.50,3.96,-0.46
+AlexGarland,2,"['Ex Machina', 'Annihilation']",3.50,3.76,-0.26
+FrancisLawrence,1,['The Hunger Games: Mockingjay Part 2'],3.50,3.47,0.03
+PeytonReed,2,"['Ant-Man', 'Yes Man']",3.25,3.19,0.06
+SamMendes,3,"['Spectre', 'American Beauty', '1917']",3.50,3.77,-0.27
+StanleyKubrick,6,"['The Shining', '2001: A Space Odyssey', 'Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb', 'Eyes Wide Shut', 'Paths of Glory', 'Barry Lyndon']",4.33,4.27,0.06
+QuentinTarantino,7,"['Pulp Fiction', 'Reservoir Dogs', 'Kill Bill: Vol. 1', 'Django Unchained', 'The Hateful Eight', 'Inglourious Basterds', 'Once Upon a Time... in Hollywood']",4.14,4.15,-0.01
+DavidFincher,8,"['Se7en', 'Gone Girl', 'Alien³', 'Fight Club', 'The Social Network', 'Zodiac', 'The Game', 'The Killer']",4.06,3.83,0.23
+LanaWachowski,1,['The Matrix'],5.00,4.18,0.82
+LillyWachowski,1,['The Matrix'],5.00,4.18,0.82
+JonathanDemme,1,['The Silence of the Lambs'],4.00,4.34,-0.34
+StevenSpielberg,10,"[""Schindler's List"", 'Jurassic Park', 'Bridge of Spies', 'Catch Me If You Can', 'Jaws', 'The Post', 'Ready Player One', 'West Side Story', 'E.T. the Extra-Terrestrial', 'Raiders of the Lost Ark']",3.85,3.87,-0.02
+ChristopherNolan,9,"['Memento', 'Interstellar', 'Batman Begins', 'The Dark Knight Rises', 'Inception', 'Dunkirk', 'The Prestige', 'Tenet', 'Oppenheimer']",3.89,4.02,-0.13
+AlfonsoCuarón,3,"['Children of Men', 'Gravity', 'Roma']",4.00,3.97,0.03
+DarrenAronofsky,3,"['Requiem for a Dream', 'mother!', 'The Wrestler']",3.50,3.89,-0.39
+BradBird,2,"['The Incredibles', 'The Iron Giant']",4.50,4.18,0.32
+AngLee,1,['Brokeback Mountain'],4.50,4.15,0.35
+AlejandroGonzálezIñárritu,1,['Birdman or (The Unexpected Virtue of Ignorance)'],5.00,4.00,1.00
+RobertRodriguez,3,"['Sin City', 'From Dusk Till Dawn', 'Machete']",3.00,3.43,-0.43
+FrankMiller,1,['Sin City'],4.00,3.70,0.30
+BennettMiller,1,['Moneyball'],4.00,3.92,0.08
+DanGilroy,1,['Nightcrawler'],4.00,4.04,-0.04
+JossWhedon,2,"['The Avengers', 'Avengers: Age of Ultron']",3.75,3.48,0.27
+ScottWaugh,1,['Need for Speed'],2.00,2.69,-0.69
+SteveMcQueen,3,"['Shame', '12 Years a Slave', 'Hunger']",3.83,3.98,-0.15
+MartinScorsese,8,"['The Wolf of Wall Street', 'The Departed', 'Raging Bull', 'Taxi Driver', 'Mean Streets', 'The Irishman', 'Killers of the Flower Moon', 'The King of Comedy']",3.88,4.07,-0.19
+DannyBoyle,2,"['127 Hours', 'Slumdog Millionaire']",4.00,3.71,0.29
+JohnLasseter,3,"['Cars', 'Toy Story 2', 'Toy Story']",4.00,3.98,0.02
+PaulGreengrass,4,"['Captain Phillips', 'The Bourne Supremacy', 'The Bourne Ultimatum', 'Jason Bourne']",3.38,3.53,-0.15
+FrankDarabont,1,['The Green Mile'],4.50,4.28,0.22
+RonHoward,4,"['The Da Vinci Code', 'Rush', 'Inferno', 'Thirteen Lives']",3.00,3.38,-0.38
+ThomasVinterberg,3,"['The Hunt', 'Another Round', 'The Celebration']",4.17,4.24,-0.07
+GaryRoss,1,['The Hunger Games'],3.50,3.80,-0.30
+BenAffleck,1,['Argo'],4.50,3.73,0.77
+PhilLord,2,"['21 Jump Street', 'The Lego Movie']",3.25,3.73,-0.48
+ChristopherMiller,2,"['21 Jump Street', 'The Lego Movie']",3.25,3.73,-0.48
+McG,1,['This Means War'],2.00,2.65,-0.65
+DavidO.Russell,1,['American Hustle'],3.50,3.35,0.15
+GuillermodelToro,4,"['Pacific Rim', 'The Shape of Water', 'Hellboy', ""Pan's Labyrinth""]",3.38,3.68,-0.31
+ShaneBlack,3,"['Iron Man 3', 'The Nice Guys', 'Kiss Kiss Bang Bang']",3.00,3.55,-0.55
+ChrisBuck,1,['Frozen'],4.00,3.50,0.50
+JenniferLee,1,['Frozen'],4.00,3.50,0.50
+Jean-MarcVallée,1,['Dallas Buyers Club'],4.50,4.02,0.48
+PeterJackson,5,"['The Hobbit: The Desolation of Smaug', 'The Hobbit: An Unexpected Journey', 'The Lord of the Rings: The Two Towers', 'The Lord of the Rings: The Return of the King', 'The Lord of the Rings: The Fellowship of the Ring']",3.60,4.09,-0.49
+BazLuhrmann,1,['The Great Gatsby'],2.50,3.46,-0.96
+JamesGunn,3,"['Guardians of the Galaxy', 'Guardians of the Galaxy Vol. 2', 'Guardians of the Galaxy Vol. 3']",3.17,3.79,-0.63
+RichardLinklater,7,"['Boyhood', 'A Scanner Darkly', 'Hit Man', 'Dazed and Confused', 'Before Sunrise', 'Before Sunset', 'Before Midnight']",3.64,3.90,-0.25
+JoeRusso,4,"['Captain America: The Winter Soldier', 'Captain America: Civil War', 'Avengers: Infinity War', 'Avengers: Endgame']",3.75,3.85,-0.10
+AnthonyRusso,4,"['Captain America: The Winter Soldier', 'Captain America: Civil War', 'Avengers: Infinity War', 'Avengers: Endgame']",3.75,3.85,-0.10
+DougLiman,2,"['Edge of Tomorrow', 'The Bourne Identity']",3.50,3.75,-0.25
+MortenTyldum,1,['The Imitation Game'],4.50,3.84,0.66
+WashWestmoreland,1,['Still Alice'],4.00,3.73,0.27
+RichardGlatzer,1,['Still Alice'],4.00,3.73,0.27
+JoelEdgerton,1,['The Gift'],4.00,3.32,0.68
+PaulFeig,3,"['Spy', 'Ghostbusters', 'Bridesmaids']",3.00,2.99,0.01
+ClintEastwood,2,"['Mystic River', 'Juror #2']",3.75,3.62,0.12
+AndrewStanton,2,"['Finding Nemo', 'Finding Dory']",3.75,3.65,0.10
+RomanPolanski,3,"['The Pianist', ""Rosemary's Baby"", 'Chinatown']",4.33,4.30,0.03
+RobertoBenigni,1,['Life Is Beautiful'],3.00,4.41,-1.41
+MikeNewell,1,['Donnie Brasco'],3.50,3.82,-0.32
+J.J.Abrams,2,"['Star Wars: The Force Awakens', 'Star Wars: The Rise of Skywalker']",3.50,2.77,0.73
+PeterBerg,2,"['Battleship', 'Patriots Day']",1.50,2.88,-1.38
+JordanRubin,1,['Zombeavers'],1.50,2.30,-0.80
+MatthewVaughn,2,"['Kingsman: The Secret Service', 'Kingsman: The Golden Circle']",3.00,3.48,-0.48
+DonSiegel,1,['Escape from Alcatraz'],4.00,3.77,0.23
+ToddHaynes,1,['Carol'],4.00,4.02,-0.02
+HayaoMiyazaki,5,"['My Neighbor Totoro', 'Spirited Away', ""Kiki's Delivery Service"", 'Porco Rosso', ""Howl's Moving Castle""]",3.30,4.23,-0.93
+TimoVuorensola,1,['Iron Sky'],1.50,2.53,-1.03
+DavidFrankel,1,['The Devil Wears Prada'],3.50,3.84,-0.34
+JonathanLevine,2,"['50/50', 'The Night Before']",3.00,3.34,-0.34
+JacquesAudiard,1,['Rust and Bone'],4.00,3.77,0.23
+RobertMulligan,1,['To Kill a Mockingbird'],4.00,4.10,-0.10
+DavidCronenberg,2,"['A Dangerous Method', 'Crash']",3.50,3.40,0.10
+BrettMorgen,1,['Cobain: Montage of Heck'],4.00,3.96,0.04
+MattHullum,1,['Lazer Team'],2.50,2.70,-0.20
+ChrisWilliams,1,['Big Hero 6'],4.00,3.84,0.16
+DonHall,2,"['Big Hero 6', 'Raya and the Last Dragon']",4.00,3.52,0.48
+TimMiller,1,['Deadpool'],3.50,3.69,-0.19
+AlfredHitchcock,4,"['Rear Window', 'Vertigo', 'Dial M for Murder', 'Psycho']",4.38,4.26,0.12
+KentJones,1,['Hitchcock/Truffaut'],3.50,3.66,-0.16
+FedericoFellini,2,"[""Fellini's Roma"", '8½']",4.25,4.08,0.17
+RichardRich,1,['The Swan Princess'],2.50,3.27,-0.77
+DeanDeBlois,2,"['How to Train Your Dragon', 'How to Train Your Dragon 2']",4.25,4.00,0.25
+ChrisSanders,2,"['How to Train Your Dragon', 'The Wild Robot']",3.50,4.17,-0.67
+MichaelHaneke,6,"['Amour', 'The Piano Teacher', 'Caché', 'Happy End', 'Funny Games', ""Benny's Video""]",4.00,3.89,0.11
+KevinSmith,3,"['Dogma', 'Chasing Amy', 'Tusk']",2.33,3.10,-0.76
+TonyKaye,1,['American History X'],4.00,4.16,-0.16
+JohnHughes,2,"['The Breakfast Club', 'Weird Science']",3.25,3.42,-0.17
+EdgarWright,6,"['Shaun of the Dead', 'Hot Fuzz', 'Scott Pilgrim vs. the World', 'Baby Driver', ""The World's End"", 'The Running Man']",3.83,3.72,0.11
+WesAnderson,4,"['The Grand Budapest Hotel', 'The Royal Tenenbaums', 'Moonrise Kingdom', 'The French Dispatch of the Liberty, Kansas Evening Sun']",3.38,4.01,-0.64
+JonFavreau,2,"['The Jungle Book', 'Iron Man']",3.00,3.48,-0.48
+VictorFleming,1,['The Wizard of Oz'],4.00,3.92,0.08
+JohnHuston,1,['The Maltese Falcon'],4.00,3.91,0.09
+SidneyLumet,2,"['12 Angry Men', 'Network']",4.50,4.45,0.05
+JericcaCleland,1,['Ratchet & Clank'],1.00,2.38,-1.38
+KevinMunroe,1,['Ratchet & Clank'],1.00,2.38,-1.38
+MichaelCurtiz,1,['Casablanca'],4.50,4.28,0.22
+EliaKazan,2,"['On the Waterfront', 'A Streetcar Named Desire']",4.00,4.09,-0.09
+JosephL.Mankiewicz,1,['All About Eve'],4.50,4.36,0.14
+BlakeEdwards,1,"[""Breakfast at Tiffany's""]",3.00,3.80,-0.80
+RichardBrooks,1,['Cat on a Hot Tin Roof'],2.50,3.92,-1.42
+FrankCapra,1,"[""It's a Wonderful Life""]",4.00,4.44,-0.44
+DavidLean,1,['The Bridge on the River Kwai'],4.50,4.24,0.26
+BillyWilder,6,"['The Seven Year Itch', 'Sunset Boulevard', 'The Apartment', 'Double Indemnity', 'Witness for the Prosecution', 'Some Like It Hot']",3.67,4.18,-0.52
+OrsonWelles,1,['Citizen Kane'],4.50,4.19,0.31
+DuncanJones,2,"['Warcraft', 'Moon']",2.25,3.19,-0.94
+PaulVerhoeven,4,"['Elle', 'Starship Troopers', 'RoboCop', 'Benedetta']",3.25,3.71,-0.46
+RoarUthaug,1,['The Wave'],3.00,3.19,-0.19
+CaryJojiFukunaga,1,['Jane Eyre'],3.50,3.66,-0.16
+LennyAbrahamson,2,"['Frank', 'Room']",3.75,3.78,-0.03
+F.GaryGray,2,"['Straight Outta Compton', 'Friday']",3.25,3.70,-0.45
+NicholasStoller,1,['Neighbors 2: Sorority Rising'],2.50,2.50,0.00
+JonM.Chu,2,"['Now You See Me 2', 'Crazy Rich Asians']",2.50,3.31,-0.81
+TomFord,1,['A Single Man'],4.50,3.90,0.60
+ToddPhillips,3,"['War Dogs', 'Joker', 'The Hangover']",2.33,3.69,-1.35
+FernandoMeirelles,1,['City of God'],4.50,4.56,-0.06
+PattyJenkins,1,['Monster'],3.00,3.66,-0.66
+WilliamFriedkin,1,['The Exorcist'],4.00,3.95,0.05
+HaroldRamis,1,['Groundhog Day'],4.00,3.81,0.19
+DavidMackenzie,1,['Hell or High Water'],4.00,3.93,0.07
+DerekCianfrance,1,['The Light Between Oceans'],2.50,3.42,-0.92
+RobertJanWestdijk,1,['Waterboys'],3.00,3.37,-0.37
+OliverStone,2,"['Snowden', 'The Doors']",2.00,3.35,-1.35
+IngmarBergman,3,"['Wild Strawberries', 'Persona', 'Cries and Whispers']",4.00,4.31,-0.31
+MattRoss,1,['Captain Fantastic'],4.00,3.95,0.05
+ScottDerrickson,1,['Doctor Strange'],3.50,3.48,0.02
+FisherStevens,1,['Before the Flood'],3.50,3.72,-0.22
+WernerHerzog,2,"['Lo and Behold: Reveries of the Connected World', 'Grizzly Man']",3.25,3.82,-0.57
+LauraPoitras,1,['Citizenfour'],4.00,3.99,0.01
+CraigMoss,1,['Bad Ass'],2.00,2.55,-0.55
+MarenAde,1,['Toni Erdmann'],4.00,3.96,0.04
+IlyaNaishuller,1,['Hardcore Henry'],1.50,3.23,-1.73
+JoelCoen,5,"['The Big Lebowski', 'No Country for Old Men', 'O Brother, Where Art Thou?', 'Blood Simple', 'Fargo']",4.10,4.08,0.02
+ParkChan-wook,2,"['Oldboy', 'The Handmaiden']",4.00,4.38,-0.38
+RachelGrady,1,['Jesus Camp'],3.00,3.66,-0.66
+HeidiEwing,1,['Jesus Camp'],3.00,3.66,-0.66
+DavidYates,1,['Fantastic Beasts and Where to Find Them'],2.00,3.18,-1.18
+ChristopherStorer,1,['Bo Burnham: Make Happy'],3.50,4.21,-0.71
+BoBurnham,2,"['Bo Burnham: Make Happy', 'Eighth Grade']",4.00,3.98,0.02
+TerryGilliam,2,"['Fear and Loathing in Las Vegas', 'Brazil']",3.75,3.93,-0.18
+DamienChazelle,3,"['Whiplash', 'La La Land', 'Babylon']",4.00,4.14,-0.14
+GarethEdwards,1,['Rogue One: A Star Wars Story'],3.50,3.81,-0.31
+DavidFarrier,1,['Tickled'],4.00,3.75,0.25
+DylanReeve,1,['Tickled'],4.00,3.75,0.25
+AvaDuVernay,2,"['13th', 'When They See Us']",3.75,4.45,-0.70
+JustinKurzel,1,"[""Assassin's Creed""]",2.50,2.01,0.49
+DavidMorris,1,['McCullin'],3.50,4.08,-0.58
+JacquiMorris,1,['McCullin'],3.50,4.08,-0.58
+JohnSturges,1,['The Great Escape'],3.00,4.16,-1.16
+RicRomanWaugh,1,['Snitch'],2.50,2.68,-0.18
+MelGibson,1,['Hacksaw Ridge'],3.50,4.02,-0.52
+MoiraDemos,1,['Making a Murderer'],3.50,3.95,-0.45
+LauraRicciardi,1,['Making a Murderer'],3.50,3.95,-0.45
+JoeCross,1,"['Fat, Sick & Nearly Dead']",2.00,3.26,-1.26
+KurtEngfehr,1,"['Fat, Sick & Nearly Dead']",2.00,3.26,-1.26
+PaulThomasAnderson,8,"['Punch-Drunk Love', 'There Will Be Blood', 'Boogie Nights', 'Magnolia', 'The Master', 'Phantom Thread', 'Licorice Pizza', 'One Battle After Another']",4.06,4.09,-0.03
+YorgosLanthimos,4,"['The Lobster', 'Dogtooth', 'Poor Things', 'Bugonia']",3.88,3.81,0.07
+PabloLarraín,1,['Jackie'],3.50,3.54,-0.04
+LoneScherfig,1,['Their Finest'],2.50,3.32,-0.82
+MarcRothemund,1,['My Blind Date with Life'],1.50,3.27,-1.77
+TheodoreMelfi,1,['Hidden Figures'],3.00,3.90,-0.90
+StephenGaghan,1,['Gold'],2.00,3.13,-1.13
+AndrewNiccol,1,['Gattaca'],2.50,3.81,-1.31
+MichelGondry,1,['Eternal Sunshine of the Spotless Mind'],4.50,4.24,0.26
+BarryJenkins,1,['Moonlight'],4.00,4.20,-0.20
+KennethLonergan,1,['Manchester by the Sea'],3.50,4.13,-0.63
+ChadStahelski,4,"['John Wick: Chapter 2', 'John Wick', 'John Wick: Chapter 3 – Parabellum', 'John Wick: Chapter 4']",3.50,3.78,-0.28
+DavidSington,1,['The Fear of 13'],3.00,3.69,-0.69
+EthanCoen,1,['No Country for Old Men'],4.50,4.31,0.19
+AmySchumer,1,['Amy Schumer: The Leather Special'],1.50,2.07,-0.57
+IvanReitman,1,['My Super Ex-Girlfriend'],2.00,2.12,-0.12
+DavidLynch,7,"['Twin Peaks', 'Blue Velvet', 'Eraserhead', 'Dune (1984)', 'Wild at Heart', 'Twin Peaks: Fire Walk with Me', 'Mulholland Drive']",3.43,3.98,-0.55
+DenzelWashington,1,['Fences'],3.00,3.64,-0.64
+JamesMangold,2,"['Logan', 'Girl, Interrupted']",2.50,4.04,-1.54
+JacquesDemy,1,['The Umbrellas of Cherbourg'],4.00,4.14,-0.14
+CharlieKaufman,1,"['Synecdoche, New York']",3.50,4.16,-0.66
+JamesCameron,4,"['Aliens', 'The Terminator', 'Terminator 2: Judgment Day', 'The Abyss']",3.38,4.00,-0.62
+NeillBlomkamp,1,['District 9'],3.50,3.81,-0.31
+KurtKuenne,1,['Dear Zachary: A Letter to a Son About His Father'],4.00,4.40,-0.40
+JeffSchaffer,1,['EuroTrip'],2.00,3.18,-1.18
+MikeMills,1,['20th Century Women'],3.50,4.01,-0.51
+JoshKriegman,1,['Weiner'],3.50,3.85,-0.35
+ElyseSteinberg,1,['Weiner'],3.50,3.85,-0.35
+Jean-PierreJeunet,1,['Alien Resurrection'],1.50,2.62,-1.12
+TreyEdwardShults,1,['It Comes at Night'],4.00,3.12,0.88
+MattReeves,1,['War for the Planet of the Apes'],1.50,3.81,-2.31
+BongJoonHo,6,"['Okja', 'Parasite', 'Memories of Murder', 'The Host', 'Mickey 17', 'Snowpiercer']",3.50,3.94,-0.44
+StellaMeghie,1,"['Everything, Everything']",2.50,2.69,-0.19
+TerrenceMalick,2,"['Badlands', 'The Thin Red Line']",3.50,4.04,-0.54
+ClaudeLanzmann,1,['Shoah'],4.00,4.53,-0.53
+TomasAlfredson,1,['Let the Right One In'],3.00,4.03,-1.03
+PaulW.S.Anderson,1,['Event Horizon'],3.00,3.33,-0.33
+LloydKaufman,1,['Poultrygeist: Night of the Chicken Dead'],3.50,2.98,0.52
+WongKar-Wai,1,['In the Mood for Love'],4.00,4.38,-0.38
+DavidLeitch,3,"['Atomic Blonde', 'Deadpool 2', 'The Fall Guy']",2.67,3.39,-0.72
+BrianDePalma,1,['Blow Out'],4.00,4.09,-0.09
+AndreyZvyagintsev,1,['Loveless'],3.00,3.91,-0.91
+LynneRamsay,2,"['You Were Never Really Here', 'We Need to Talk About Kevin']",4.25,3.74,0.51
+DavidGordonGreen,1,['Stronger'],3.00,3.47,-0.47
+DestinDanielCretton,1,['The Glass Castle'],1.50,3.35,-1.85
+TaikaWaititi,3,"['Thor: Ragnarok', 'Hunt for the Wilderpeople', 'Jojo Rabbit']",2.83,3.94,-1.11
+RennyHarlin,1,['Die Hard 2'],2.50,3.35,-0.85
+JohnMcTiernan,3,"['Die Hard With a Vengeance', 'Predator', 'Die Hard']",3.50,3.85,-0.35
+JonathanDayton,2,"['Battle of the Sexes', 'Little Miss Sunshine']",3.50,3.79,-0.29
+ValerieFaris,2,"['Battle of the Sexes', 'Little Miss Sunshine']",3.50,3.79,-0.29
+LenWiseman,1,['Live Free or Die Hard'],2.00,2.94,-0.94
+JohnMusker,1,['Moana'],3.00,3.72,-0.72
+RonClements,1,['Moana'],3.00,3.72,-0.72
+JordanPeele,3,"['Get Out', 'Us', 'Nope']",3.33,3.82,-0.48
+RianJohnson,4,"['Star Wars: The Last Jedi', 'Knives Out', 'Glass Onion', 'Wake Up Dead Man']",3.62,3.50,0.13
+WimWenders,2,"['Paris, Texas', 'Perfect Days']",3.50,4.34,-0.84
+JohnCarpenter,3,"['The Thing', 'Big Trouble in Little China', 'Christine']",3.83,3.86,-0.03
+RaoulPeck,1,['I Am Not Your Negro'],3.50,4.20,-0.70
+PedroAlmodóvar,2,"['All About My Mother', 'The Skin I Live In']",3.75,3.99,-0.24
+SimonCurtis,1,['Goodbye Christopher Robin'],2.50,3.40,-0.90
+CraigGillespie,2,"['I, Tonya', 'Dumb Money']",3.25,3.56,-0.31
+SeanBaker,2,"['The Florida Project', 'Anora']",3.75,3.94,-0.19
+NicolasWindingRefn,1,['The Neon Demon'],3.50,3.14,0.36
+MichaelCimino,1,['The Deer Hunter'],3.00,4.21,-1.21
+TommyWiseau,1,['The Room'],0.50,2.61,-2.11
+LarsvonTrier,3,"['Dancer in the Dark', 'Antichrist', 'Melancholia']",3.67,3.82,-0.15
+AaronSeltzer,1,['Disaster Movie'],0.50,1.19,-0.69
+JasonFriedberg,1,['Disaster Movie'],0.50,1.19,-0.69
+RolandEmmerich,2,"['Independence Day', 'The Day After Tomorrow']",3.25,3.19,0.06
+AlanParker,1,['Pink Floyd: The Wall'],3.50,4.15,-0.65
+JoshuaOppenheimer,2,"['The Act of Killing', 'The Look of Silence']",3.75,4.38,-0.63
+TomPutnam,1,['The Hottie & The Nottie'],1.00,1.55,-0.55
+BryanSinger,1,['Valkyrie'],3.50,3.35,0.15
+AriAster,2,"['Hereditary', 'Midsommar']",3.50,3.84,-0.34
+RobertZemeckis,3,"['Romancing the Stone', 'Back to the Future', 'Who Framed Roger Rabbit']",2.83,3.85,-1.02
+RichardDonner,1,['The Goonies'],3.00,3.82,-0.82
+WolfgangPetersen,1,['Enemy Mine'],2.50,3.39,-0.89
+GusVanSant,1,['Good Will Hunting'],3.50,4.38,-0.88
+KatsuhiroOtomo,1,['Akira'],3.00,4.28,-1.28
+BennySafdie,2,"['Good Time', 'Uncut Gems']",4.00,3.96,0.04
+JoshSafdie,3,"['Good Time', 'Uncut Gems', 'Marty Supreme']",3.67,4.01,-0.34
+DennisHopper,1,['Easy Rider'],3.00,3.77,-0.77
+LucBesson,2,"['Lucy', 'Valerian and the City of a Thousand Planets']",2.25,2.77,-0.52
+KarynKusama,1,['The Invitation'],3.00,3.27,-0.27
+BryanFogel,1,['Icarus'],3.00,3.97,-0.97
+MathieuKassovitz,1,['La Haine'],3.50,4.50,-1.00
+FrancisFordCoppola,4,"['Apocalypse Now', 'The Conversation', 'The Godfather', 'The Godfather Part II']",4.25,4.42,-0.17
+DavidSlade,1,['Black Mirror: Bandersnatch'],3.50,3.28,0.22
+AndrzejŻuławski,1,['Possession'],3.00,4.04,-1.04
+CristianMungiu,1,"['4 Months, 3 Weeks and 2 Days']",4.00,4.24,-0.24
+JohnHillcoat,1,['The Road'],3.00,3.66,-0.66
+KellyFremonCraig,2,"['The Edge of Seventeen', ""Are You There God? It's Me, Margaret.""]",2.75,3.63,-0.88
+BurrSteers,1,['Pride and Prejudice and Zombies'],1.50,2.76,-1.26
+YeonSang-ho,1,['Train to Busan'],2.00,3.98,-1.98
+HarmonyKorine,2,"['The Beach Bum', 'Spring Breakers']",3.75,3.05,0.70
+MichaelMoore,1,['Fahrenheit 9/11'],3.50,3.61,-0.11
+MichaëlR.Roskam,1,['Bullhead'],3.50,3.73,-0.23
+JimJarmusch,1,['Only Lovers Left Alive'],3.50,3.81,-0.31
+SusanneBier,1,['Bird Box'],2.50,2.93,-0.43
+AgnèsVarda,1,['Cléo from 5 to 7'],3.00,4.18,-1.18
+RobReiner,4,"['This Is Spinal Tap', 'Rumor Has It...', 'When Harry Met Sally...', 'Stand by Me']",2.50,3.62,-1.12
+TomMcCarthy,1,['Spotlight'],4.00,4.12,-0.12
+NoraTwomey,1,['The Breadwinner'],3.50,4.09,-0.59
+AlanJ.Pakula,1,"[""All the President's Men""]",3.50,4.18,-0.68
+ClaireDenis,1,['High Life'],3.50,3.20,0.30
+RichardFleischer,1,['Soylent Green'],2.50,3.50,-1.00
+LászlóNemes,1,['Son of Saul'],4.00,4.08,-0.08
+NoahBaumbach,3,"['The Meyerowitz Stories (New and Selected)', 'Marriage Story', 'Frances Ha']",3.83,3.93,-0.09
+KathrynBigelow,1,['Zero Dark Thirty'],2.50,3.69,-1.19
+JamesMarsh,1,['Man on Wire'],3.00,3.88,-0.88
+AndrewHaigh,1,['45 Years'],3.50,3.86,-0.36
+VincenzoNatali,1,['Cube'],2.50,3.27,-0.77
+AneeshChaganty,1,['Searching'],3.50,3.71,-0.21
+SatoshiKon,1,['Perfect Blue'],4.00,4.38,-0.38
+MikeNichols,2,"['The Graduate', 'Closer']",2.75,3.75,-1.00
+DannyLeiner,1,['Harold & Kumar Go to White Castle'],2.50,3.40,-0.90
+DarioArgento,1,['Suspiria'],3.50,3.92,-0.42
+JamesGray,1,['Ad Astra'],3.00,3.36,-0.36
+GasparNoé,1,['Enter the Void'],3.00,3.77,-0.77
+ClydeGeronimi,1,['Sleeping Beauty'],2.50,3.57,-1.07
+FredDurst,1,['The Fanatic'],1.00,1.76,-0.76
+WayneIsham,1,['Metallica and San Francisco Symphony: S&M2'],2.50,4.04,-1.54
+JeffreyNachmanoff,1,['Replicas'],0.50,2.09,-1.59
+JeremySaulnier,1,['Green Room'],4.00,3.63,0.37
+BobFosse,1,['All That Jazz'],3.00,4.34,-1.34
+MichelangeloAntonioni,1,['Blow-Up'],2.50,3.80,-1.30
+MarkAtkins,1,['Sand Sharks'],0.50,1.76,-1.26
+ChiwetelEjiofor,1,['The Boy Who Harnessed the Wind'],2.50,3.70,-1.20
+RobertEggers,3,"['The Lighthouse', 'The Witch', 'Nosferatu']",3.50,3.83,-0.33
+StuartRosenberg,1,['Cool Hand Luke'],3.00,4.16,-1.16
+GretaGerwig,3,"['Little Women', 'Lady Bird', 'Barbie']",3.17,3.90,-0.73
+TobeHooper,1,['The Texas Chain Saw Massacre'],4.50,3.78,0.72
+EthanManiquis,1,['Machete'],3.00,3.09,-0.09
+JohnDower,1,['My Scientology Movie'],2.50,3.39,-0.89
+PawełPawlikowski,1,['Ida'],3.00,4.05,-1.05
+CélineSciamma,2,"['Portrait of a Lady on Fire', 'Petite Maman']",4.25,4.26,-0.01
+AdamMcKay,2,"['The Big Short', 'Vice']",2.75,3.67,-0.92
+KenLoach,3,"['I, Daniel Blake', 'Sorry We Missed You', 'The Old Oak']",3.33,3.85,-0.52
+VittorioDeSica,1,['Bicycle Thieves'],3.50,4.29,-0.79
+SriramRaghavan,1,['Andhadhun'],3.50,3.90,-0.40
+OriolPaulo,1,['The Invisible Guest'],3.50,3.93,-0.43
+IsaoTakahata,1,['Grave of the Fireflies'],3.00,4.48,-1.48
+SergioLeone,1,"['The Good, the Bad and the Ugly']",3.50,4.51,-1.01
+AkiraKurosawa,3,"['Ikiru', 'Seven Samurai', 'Rashomon']",3.33,4.44,-1.10
+JuliusAvery,1,['Overlord'],3.00,3.24,-0.24
+JimSheridan,1,['In the Name of the Father'],3.50,4.20,-0.70
+JohnLandis,1,['An American Werewolf in London'],3.00,3.83,-0.83
+JohnG.Avildsen,1,['The Karate Kid'],2.50,3.81,-1.31
+Jean-LucGodard,1,['Breathless'],2.50,3.90,-1.40
+HugoGélin,1,['Two Is a Family'],1.50,3.53,-2.03
+ThomasKail,1,['Hamilton'],3.00,4.27,-1.27
+AndreiTarkovsky,1,['Stalker'],4.00,4.40,-0.40
+KayPollak,1,['As It Is in Heaven'],3.00,3.70,-0.70
+RobLücker,1,['Rundfunk: Jachterwachter'],3.00,3.06,-0.06
+GeorgeClooney,1,['The Midnight Sky'],2.00,2.50,-0.50
+M.NightShyamalan,1,['Split'],3.00,3.52,-0.52
+JaumeBalagueró,1,['[REC]'],4.00,3.68,0.32
+PacoPlaza,1,['[REC]'],4.00,3.68,0.32
+GaryWinick,1,['Bride Wars'],1.00,3.04,-2.04
+StevenSoderbergh,3,"[""Ocean's Eleven"", 'Erin Brockovich', 'Black Bag']",2.67,3.75,-1.08
+JasonReitman,2,"['Tully', 'Thank You for Smoking']",3.75,3.62,0.13
+KrzysztofKieślowski,1,['The Double Life of Véronique'],2.00,4.10,-2.10
+BiboBergeron,1,['The Road to El Dorado'],1.50,3.63,-2.13
+DonPaul,1,['The Road to El Dorado'],1.50,3.63,-2.13
+StephenHerek,1,"[""Bill & Ted's Excellent Adventure""]",3.00,3.68,-0.68
+HannesHolm,1,['A Man Called Ove'],2.50,3.89,-1.39
+TamaraJenkins,1,['Private Life'],3.00,3.78,-0.78
+PeterHyams,1,['Outland'],3.50,3.41,0.09
+StephenSommers,1,['The Mummy'],1.50,3.59,-2.09
+CarlosLópezEstrada,1,['Raya and the Last Dragon'],4.00,3.20,0.80
+HughWilson,1,['Police Academy'],3.00,3.21,-0.21
+RobertBenton,1,['Kramer vs. Kramer'],4.00,4.08,-0.08
+AlejandroMartínezBeltrán,1,['Veronica'],2.50,2.88,-0.38
+CarlosAlgara,1,['Veronica'],2.50,2.88,-0.38
+ChloéZhao,1,['Nomadland'],3.50,3.81,-0.31
+BjörnStein,1,['6 Souls'],3.00,2.64,0.36
+MånsMårlind,1,['6 Souls'],3.00,2.64,0.36
+JohanNijenhuis,1,['The Marriage Escape'],3.50,3.44,0.06
+PeterWeir,2,"['The Truman Show', 'Master and Commander: The Far Side of the World']",3.50,4.11,-0.61
+SpikeJonze,3,"['Her', 'Being John Malkovich', 'Adaptation.']",3.50,4.05,-0.55
+MartinCampbell,1,['The Mask of Zorro'],3.00,3.44,-0.44
+JohnCarney,1,['Sing Street'],3.50,4.05,-0.55
+JoeWright,2,"['Pride & Prejudice', 'Atonement']",3.50,4.07,-0.57
+DeeRees,1,['Mudbound'],3.00,3.76,-0.76
+DanScanlon,1,['Onward'],3.00,3.33,-0.33
+MartinMcDonagh,3,"['Three Billboards Outside Ebbing, Missouri', 'The Banshees of Inisherin', 'In Bruges']",3.33,4.10,-0.77
+JuliaDucournau,1,['Raw'],4.00,3.67,0.33
+WesCraven,1,['The Last House on the Left'],3.00,2.87,0.13
+AnnDeborahFishman,1,['Swiped'],0.50,1.10,-0.60
+MaryHarron,1,['American Psycho'],3.50,3.77,-0.27
+EmeraldFennell,1,['Promising Young Woman'],3.50,3.66,-0.16
+MikeFlanagan,2,"['Hush', 'The Life of Chuck']",3.00,3.45,-0.45
+JasonWoliner,1,['Borat Subsequent Moviefilm'],3.50,3.27,0.23
+RobEpstein,1,['Lovelace'],2.00,2.94,-0.94
+JeffreyFriedman,1,['Lovelace'],2.00,2.94,-0.94
+EnricoCasarosa,1,['Luca'],3.00,3.68,-0.68
+JonWatts,3,"['Spider-Man: Homecoming', 'Spider-Man: Far From Home', 'Spider-Man: No Way Home']",2.67,3.57,-0.90
+OliviaWilde,1,['Booksmart'],3.50,3.70,-0.20
+ChristianSchwochow,1,['Munich – The Edge of War'],3.50,3.37,0.13
+DavidWnendt,1,"[""Look Who's Back""]",3.00,3.44,-0.44
+LucJacquet,1,['March of the Penguins'],3.50,3.60,-0.10
+AndreaArnold,1,['Fish Tank'],4.00,3.84,0.16
+DariusMarder,1,['Sound of Metal'],4.00,4.21,-0.21
+LucaGuadagnino,1,['Call Me by Your Name'],4.00,3.85,0.15
+S.S.Rajamouli,1,['RRR'],3.00,4.20,-1.20
+MiaHansen-Løve,1,['One Fine Morning'],3.00,3.62,-0.62
+MarkMylod,1,['The Menu'],3.50,3.52,-0.02
+HirokazuKore-eda,1,['Broker'],3.50,3.78,-0.28
+LukasDhont,1,['Close'],4.00,4.13,-0.13
+PeterFarrelly,1,['Green Book'],2.50,3.85,-1.35
+RubenÖstlund,1,['Triangle of Sadness'],2.50,3.69,-1.19
+StevenShainberg,1,['Secretary'],3.00,3.55,-0.55
+TomGormican,1,['The Unbearable Weight of Massive Talent'],3.50,3.43,0.07
+JoachimTrier,3,"['The Worst Person in the World', 'Oslo, August 31st', 'Sentimental Value']",3.67,4.11,-0.45
+CharlotteWells,1,['Aftersun'],5.00,4.21,0.79
+SophieHyde,1,"['Good Luck to You, Leo Grande']",3.50,3.62,-0.12
+FlorianHenckelvonDonnersmarck,1,['The Lives of Others'],3.50,4.29,-0.79
+TaylorSheridan,1,['Wind River'],3.00,3.84,-0.84
+BobPersichetti,1,['Spider-Man: Into the Spider-Verse'],4.00,4.39,-0.39
+PeterRamsey,1,['Spider-Man: Into the Spider-Verse'],4.00,4.39,-0.39
+RodneyRothman,1,['Spider-Man: Into the Spider-Verse'],4.00,4.39,-0.39
+LeonardNimoy,2,"['Star Trek III: The Search for Spock', 'Star Trek IV: The Voyage Home']",3.25,3.51,-0.26
+JohnFrancisDaley,1,['Game Night'],4.50,3.51,0.99
+JonathanGoldstein,1,['Game Night'],4.50,3.51,0.99
+JaneCampion,2,"['The Power of the Dog', 'The Piano']",3.25,3.75,-0.50
+NuriBilgeCeylan,3,"['Once Upon a Time in Anatolia', 'Winter Sleep', 'About Dry Grasses']",3.83,4.13,-0.30
+SpikeLee,7,"['Inside Man', ""She's Gotta Have It"", 'Malcolm X', 'BlacKkKlansman', '25th Hour', 'Jungle Fever', ""Mo' Better Blues""]",3.07,3.81,-0.73
+WilliamShatner,1,['Star Trek V: The Final Frontier'],1.50,2.58,-1.08
+JohanRenck,1,['Chernobyl'],4.50,4.60,-0.10
+NicholasMeyer,1,['Star Trek VI: The Undiscovered Country'],3.00,3.64,-0.64
+RobertWise,1,['Star Trek: The Motion Picture'],3.50,3.20,0.30
+MariaSchrader,1,"[""I'm Your Man""]",3.00,3.53,-0.53
+JustineTriet,1,['Anatomy of a Fall'],4.00,4.12,-0.12
+XavierDolan,1,['Mommy'],3.00,4.32,-1.32
+PaulKing,2,"['Paddington', 'Paddington 2']",3.75,3.96,-0.21
+RolandJoffé,1,['The Killing Fields'],3.50,3.95,-0.45
+JonathanGlazer,1,['The Zone of Interest'],2.50,3.86,-1.36
+JayRoach,1,['Austin Powers: International Man of Mystery'],2.50,3.44,-0.94
+AndrewAdamson,1,['Shrek'],2.50,4.12,-1.62
+VickyJenson,1,['Shrek'],2.50,4.12,-1.62
+MikeJudge,2,"['Idiocracy', 'Office Space']",3.00,3.31,-0.31
+GeorgeSluizer,1,['The Vanishing'],4.00,4.01,-0.01
+ErmannoOlmi,1,['Il Posto'],3.00,4.15,-1.15
+ArmandoIannucci,1,['The Death of Stalin'],3.00,3.80,-0.80
+JeffTremaine,1,['Jackass Forever'],4.00,3.55,0.45
+AliceRohrwacher,1,['La Chimera'],4.50,4.09,0.41
+JohnCassavetes,1,['A Woman Under the Influence'],4.50,4.40,0.10
+DenizGamzeErgüven,1,['Mustang'],2.50,4.15,-1.65
+AlexanderPayne,1,['The Holdovers'],3.00,4.25,-1.25
+AsgharFarhadi,1,['A Separation'],4.50,4.37,0.13
+RobertLuketic,1,['Legally Blonde'],3.50,3.83,-0.33
+RogerMichell,1,['Notting Hill'],1.50,3.68,-2.18
+DavidR.Ellis,1,['Snakes on a Plane'],2.00,2.50,-0.50
+DanielScheinert,2,"['Everything Everywhere All at Once', 'Swiss Army Man']",3.00,3.96,-0.96
+DanielKwan,2,"['Everything Everywhere All at Once', 'Swiss Army Man']",3.00,3.96,-0.96
+LiamLynch,1,['Tenacious D in The Pick of Destiny'],4.00,3.51,0.49
+StevePink,1,['Hot Tub Time Machine'],2.00,2.81,-0.81
+PaulBrickman,1,['Risky Business'],3.50,3.43,0.07
+HansPetterMoland,1,['In Order of Disappearance'],3.00,3.58,-0.58
+CoralieFargeat,1,['The Substance'],3.50,3.73,-0.23
+MelBrooks,1,['The Producers'],3.00,3.79,-0.79
+LeeUnkrich,1,['Toy Story 3'],4.50,4.01,0.49
+AmyHeckerling,1,['Clueless'],3.50,3.69,-0.19
+JimSharman,1,['The Rocky Horror Picture Show'],3.50,4.05,-0.55
+JamieBabbit,1,"[""But I'm a Cheerleader""]",3.00,4.01,-1.01
+KelseyMann,1,['Inside Out 2'],3.00,3.54,-0.54
+EmmaSeligman,1,['Bottoms'],3.00,3.80,-0.80
+ChrisColumbus,1,['Home Alone'],4.00,3.85,0.15
+LeeIsaacChung,1,['Minari'],3.00,4.08,-1.08
+GintsZilbalodis,1,['Flow'],3.50,4.09,-0.59
+HalinaReijn,1,['Babygirl'],2.00,2.69,-0.69
+JohnBerry,1,['Claudine'],4.00,3.81,0.19
+BradyCorbet,1,['The Brutalist'],3.50,3.89,-0.39
+MatthewWarchus,1,['Pride'],3.00,4.15,-1.15
+SamFell,1,['Chicken Run: Dawn of the Nugget'],3.00,3.10,-0.10
+RyanCoogler,2,"['Black Panther', 'Sinners']",3.75,3.90,-0.15
+MasakiKobayashi,1,['Harakiri'],3.00,4.68,-1.68
+LuisBuñuel,1,['The Discreet Charm of the Bourgeoisie'],3.00,3.99,-0.99
+AnnabelJankel,1,['Super Mario Bros.'],1.50,2.14,-0.64
+RockyMorton,1,['Super Mario Bros.'],1.50,2.14,-0.64
+JennieLivingston,1,['Paris Is Burning'],4.00,4.55,-0.55
+BenStiller,1,['The Secret Life of Walter Mitty'],3.00,3.86,-0.86
+MarkDindal,1,"[""The Emperor's New Groove""]",4.00,3.93,0.07
+ToddSolondz,1,['Happiness'],3.50,3.97,-0.47
+RoseGlass,1,['Love Lies Bleeding'],3.50,3.53,-0.03
+JimmyChin,1,['Free Solo'],2.50,4.06,-1.56
+ElizabethChaiVasarhelyi,1,['Free Solo'],2.50,4.06,-1.56
+MichaelBay,1,['The Rock'],3.00,3.59,-0.59
+DrewHancock,1,['Companion'],3.50,3.37,0.13
+KittyGreen,1,['The Assistant'],4.00,3.50,0.50
+AkivaSchaffer,1,['Popstar: Never Stop Never Stopping'],4.00,3.62,0.38
+JormaTaccone,1,['Popstar: Never Stop Never Stopping'],4.00,3.62,0.38
+MeganPark,1,['My Old Ass'],2.00,3.53,-1.53
+JenniferKent,1,['The Babadook'],3.50,3.31,0.19
+CurtisHanson,1,['L.A. Confidential'],3.50,4.09,-0.59
+BarryLevinson,1,['Rain Man'],1.50,3.89,-2.39
+JohnSingleton,1,['Boyz n the Hood'],4.00,4.05,-0.05
+LawrenceLamont,1,['One of Them Days'],3.00,3.43,-0.43
+ChrisAppelhans,1,['KPop Demon Hunters'],3.00,3.56,-0.56
+MaggieKang,1,['KPop Demon Hunters'],3.00,3.56,-0.56
+SeanByrne,1,['Dangerous Animals'],3.00,2.99,0.01
+DeaKulumbegashvili,1,['April'],3.50,3.48,0.02
+EdwardZwick,1,['Glory'],3.00,3.78,-0.78
+JamesIvory,1,['The Remains of the Day'],3.50,3.96,-0.46
+CameronCrowe,1,['Jerry Maguire'],3.00,3.60,-0.60
+JasmilaŽbanić,1,"['Quo Vadis, Aida?']",3.50,4.24,-0.74
+ChantalAkerman,1,"['Jeanne Dielman, 23, quai du Commerce, 1080 Bruxelles']",4.00,4.26,-0.26
+MilošForman,1,['Amadeus'],3.00,4.36,-1.36
+FrancisLee,1,"[""God's Own Country""]",3.50,3.97,-0.47
+MaxBarbakow,1,['Palm Springs'],3.00,3.76,-0.76
+BernardoBertolucci,1,['The Conformist'],3.50,4.20,-0.70
+JonathanLynn,1,['My Cousin Vinny'],3.00,3.93,-0.93
